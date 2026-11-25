@@ -12,3 +12,12 @@
 @media(max-width:850px){.hero{grid-template-columns:1fr .8fr}.hero h1{font-size:62px}.hero-visual{transform:scale(.85)}.about-grid{gap:35px}.projects-grid{grid-template-columns:repeat(2,1fr)}.projects-grid .project-card:last-child{grid-column:span 2}.contact-panel{gap:35px;padding:38px}}
 @media(max-width:650px){.container{width:min(100% - 36px,520px)}.nav{height:66px}.menu-toggle{display:flex;flex-direction:column;gap:5px;padding:8px}.menu-toggle span{width:23px;height:2px;background:#e5ebf6;border-radius:3px}.nav-links{display:none;position:absolute;top:65px;left:0;right:0;padding:20px 25px 25px;background:#0d111a;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-links a{display:block}.nav-contact{display:inline-block;width:max-content}.hero{display:flex;flex-direction:column;align-items:flex-start;padding-top:65px;padding-bottom:90px;min-height:auto}.hero h1{font-size:clamp(52px,13vw,70px);letter-spacing:-3px}.hello{margin-top:25px}.hero-role{font-size:15px}.hero-description{font-size:13px}.hero-meta{margin-top:35px;font-size:8px}.hero-visual{align-self:center;width:100%;height:390px;margin-top:20px;transform:scale(.88)}.profile-card{width:260px}.avatar-placeholder{height:215px}.scroll-cue{bottom:15px}.section{padding-top:75px;padding-bottom:75px}.section-heading{margin-bottom:32px}.section-heading h2{font-size:37px}.about-grid{grid-template-columns:1fr;gap:22px}.large-copy{font-size:26px}.about-facts{gap:23px}.education-card{grid-template-columns:45px 1fr;padding:21px;gap:15px}.education-icon{width:42px;height:42px}.education-content h3{font-size:20px}.education-year{grid-column:2;width:max-content}.skills-grid{grid-template-columns:repeat(2,1fr);gap:10px}.skill-card{padding:17px}.skill-card p{min-height:34px}.projects-grid{grid-template-columns:1fr}.projects-grid .project-card:last-child{grid-column:auto}.project-info p{min-height:0}.contact-panel{grid-template-columns:1fr;padding:28px 23px;gap:35px}.contact-copy h2{font-size:42px}.footer-inner{flex-wrap:wrap;gap:13px}.footer-inner p{min-width:65%}.footer-inner small{width:100%}}
 @media(max-width:380px){.skills-grid{grid-template-columns:1fr}.hero h1{font-size:49px}.hero-visual{transform:scale(.78);transform-origin:top center;margin-bottom:-55px}.about-facts{gap:14px}.about-facts span{font-size:10px}}
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+}
